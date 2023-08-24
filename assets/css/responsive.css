@@ -1,0 +1,182 @@
+@media (min-width: 320px) {
+ /* =====navbar start==== */
+ .navbar ul li a.active{
+    margin-top: 10px;
+}
+/* ===navbar end==== */
+/* ====hero section start==== */
+#hero{
+    height: 770px;
+}
+.hero-content{
+    text-align: center;
+    margin-bottom: 40px;
+}
+    .hero img{
+        text-align: center;
+    }
+    /* =====hero end==== */
+    /* ====about section start==== */
+    .about-img img{
+        height: 300px;
+        margin-left: 0px;
+     }
+     /* ====about end==== */
+     /* ====values section start==== */
+     #values .card{
+        margin-top: 40px;
+     }
+     /* =====values end=== */
+     /* ===count start==== */
+     .count-main{
+        margin-bottom: 30px;
+     }
+     /* ====count end=== */
+     /* features tabs==== */
+     .tabs-last{
+        margin-top: 40px;
+     }
+     /* ====accordion======= */
+     .accordion-extra{
+        border-bottom: 1px solid rgb(215, 210, 210);
+    }
+    /* =====portfolio start==== */
+    .portfolio-list li.active, .portfolio-list li:hover{
+        color: var(--color-blue-fresh) !important;
+        cursor: pointer;
+     }
+     .portfolio-child{
+        margin-bottom: 30px;
+     }
+     /* =====portfolio end==== */
+     .news-from input{
+        height: 42px; width: 170px; box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+}
+@media (min-width: 350px) {
+    .about-img img{
+        height: 350px;
+     }
+    
+
+}
+@media (min-width: 375px) {
+ 
+    
+ }
+@media (min-width: 384px) {
+ 
+ }
+@media (min-width: 360px) {
+ }
+@media (min-width: 390px) {
+ 
+ }
+@media (min-width: 414px) {
+ 
+ }
+ @media (min-width: 412px) {
+    .news-from input{
+    width: 230px; 
+    }
+ }
+@media (min-width: 428px) {
+ 
+ }
+ @media (min-width: 460px) {
+ 
+ }
+ @media (min-width: 480px) {
+    .about-img img{
+        height: 420px;
+     }
+ }
+ @media (min-width: 512px) {
+    /* ====hero start====== */
+    #hero .hero-content h1{
+        font-size: 38px;
+     }
+     #hero{
+        height: 800px;
+    }
+    /* =====hero end===== */
+    .news-from input{
+    width: 320px;
+    }
+ }
+ @media (min-width: 550px) {
+    #hero{
+        height:850px;
+    }
+ }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #hero .hero-content h1{
+        font-size: 48px;
+     }
+     #hero{
+        height:900px;
+    }
+    /* =====hero end==== */
+    #count .count-main{
+        margin-bottom: 0px;
+     }
+
+ }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .about-img img{
+        width: 800px;
+    } 
+    .accordion-extra{
+        border-bottom: none;
+    }
+         
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* ====navbar srart===== */
+    .navbar ul li a{
+        margin-right: 0px;
+    }
+    .navbar ul li a.active{
+        margin-top: 0px;
+    }
+    /* ====navbar end===== */
+    .hero-content{
+        text-align: left;
+    }
+    #hero{
+        height: 550px;
+    }
+    .about-img img{
+        margin-left: -24px;
+        height: 458px;
+     }
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* ====navbar start===== */
+    .navbar ul li a{
+        margin-right: 12px;
+    }
+    /* ====navbar end===== */
+    .about-img img{
+        height: 438px;
+    }
+
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+ }
+
+ 
+
+
+ 
